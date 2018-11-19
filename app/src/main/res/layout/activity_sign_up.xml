@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/personName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Name"
+                android:drawableRight="@drawable/ic_person_outline_black_24dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/passowrd"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Passowrd"
+                android:drawableRight="@drawable/ic_remove_red_eye_black_24dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/typeof"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address Country"
+                android:drawableRight="@drawable/ic_add_location_black_24dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/addressCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Country Address"
+                android:drawableRight="@drawable/ic_add_location_black_24dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/addressCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" City Address"
+                android:drawableRight="@drawable/ic_location_city_black_24dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/addressState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" State"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/addressStreet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Street Address"
+                android:drawableRight="@drawable/ic_streetview_black_24dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/addressNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Address Number"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/addressCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address PCode"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/contactinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address Country"
+                android:drawableRight="@drawable/ic_add_location_black_24dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/ssn"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SSN"
+                android:drawableRight="@drawable/ic_person_black_24dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/birthDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Birth Date"
+                android:inputType="datetime"
+                android:drawableRight="@drawable/ic_add_location_black_24dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -27,4 +27,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     compile 'com.amitshekhar.android:android-networking:1.0.2'
     compile 'com.amitshekhar.android:jackson-android-networking:1.0.2'
+    compile 'info.hoang8f:fbutton:1.0.5'
+
 }

@@ -1,4 +1,4 @@
-package com.example.kan.sydalea.getinfo;
+package com.example.kan.sydalea.signin;
 
 import android.content.Context;
 

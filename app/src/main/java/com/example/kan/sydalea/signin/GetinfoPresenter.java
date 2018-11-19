@@ -1,7 +1,6 @@
-package com.example.kan.sydalea.getinfo;
+package com.example.kan.sydalea.signin;
 
 import android.content.Context;
-import android.util.Log;
 
 public class GetinfoPresenter implements IGetifoContract.ISignInPresenter, IGetifoContract.ISignModel.onLoginFinishedListener {
 
